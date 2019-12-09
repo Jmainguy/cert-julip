@@ -3,10 +3,9 @@ module github.com/jmainguy/cert-julip
 require (
 	contrib.go.opencensus.io/exporter/ocagent v0.4.9 // indirect
 	github.com/Azure/go-autorest v11.5.2+incompatible // indirect
-	github.com/apache/thrift v0.12.0 // indirect
 	github.com/coreos/prometheus-operator v0.26.0 // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
-	github.com/go-openapi/spec v0.18.0
+	github.com/go-openapi/spec v0.18.0 // indirect
 	github.com/golang/groupcache v0.0.0-20180924190550-6f2cf27854a4 // indirect
 	github.com/googleapis/gnostic v0.2.0 // indirect
 	github.com/gophercloud/gophercloud v0.0.0-20190318015731-ff9851476e98 // indirect
@@ -15,7 +14,6 @@ require (
 	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/jetstack/cert-manager v0.8.1
 	github.com/openshift/api v3.9.0+incompatible
-	github.com/openzipkin/zipkin-go v0.1.6 // indirect
 	github.com/operator-framework/operator-sdk v0.8.2-0.20190522220659-031d71ef8154
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/spf13/pflag v1.0.3
@@ -47,3 +45,5 @@ replace (
 	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.1.10
 	sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.1.11-0.20190411181648-9d55346c2bde
 )
+
+go 1.13

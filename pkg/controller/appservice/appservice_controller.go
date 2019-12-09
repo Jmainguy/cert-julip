@@ -98,7 +98,7 @@ type ReconcileAppService struct {
 // Result.Requeue is true, otherwise upon completion it will remove the work from the queue.
 func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Result, error) {
 	reqLogger := log.WithValues("Request.Namespace", request.Namespace, "Request.Name", request.Name)
-	reqLogger.Info("Reconciling AppService")
+	reqLogger.Info("Reconciling Route")
 
 	// Fetch the Route
 	route := &routev1.Route{}
