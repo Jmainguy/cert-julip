@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cert-julip
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: cert-julip
+  template:
+    metadata:
+      labels:
+        name: cert-julip
+    spec:
+      serviceAccountName: cert-julip
+      containers:
+        - name: cert-julip
+          image: hub.soh.re/jmainguy/cert-julip
+          command:
+          - cert-julip
+          imagePullPolicy: Always
+          env:
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: OPERATOR_NAME
+              value: "cert-julip"
+            - name: WATCH_NAMESPACE
+              value: ""

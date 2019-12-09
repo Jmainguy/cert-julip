@@ -1,0 +1,12 @@
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  name: cert-julip
+subjects:
+- kind: ServiceAccount
+  name: cert-julip
+  namespace: cert-julip
+roleRef:
+  kind: ClusterRole
+  name: cert-julip
+  apiGroup: rbac.authorization.k8s.io
