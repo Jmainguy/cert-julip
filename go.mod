@@ -20,7 +20,7 @@ require (
 	go.uber.org/atomic v1.3.2 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	k8s.io/api v0.0.0-20190413052509-3cc1b3fb6d0f
-	k8s.io/apimachinery v0.0.0-20190413052414-40a3f73b0fa2
+	k8s.io/apimachinery v0.28.0-alpha.0
 	k8s.io/client-go v2.0.0-alpha.0.0.20181126152608-d082d5923d3c+incompatible
 	k8s.io/code-generator v0.0.0-20181117043124-c2090bec4d9b
 	k8s.io/gengo v0.0.0-20190327210449-e17681d19d3a
