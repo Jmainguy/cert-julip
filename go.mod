@@ -10,7 +10,7 @@ require (
 	github.com/gophercloud/gophercloud v0.0.0-20190318015731-ff9851476e98 // indirect
 	github.com/gregjones/httpcache v0.0.0-20180305231024-9cad4c3443a7 // indirect
 	github.com/imdario/mergo v0.3.6 // indirect
-	github.com/jetstack/cert-manager v0.8.1
+	github.com/jetstack/cert-manager v0.16.1
 	github.com/openshift/api v3.9.0+incompatible
 	github.com/operator-framework/operator-sdk v0.8.2-0.20190522220659-031d71ef8154
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
