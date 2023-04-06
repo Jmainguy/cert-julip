@@ -16,14 +16,14 @@ require (
 	github.com/openshift/api v3.9.0+incompatible
 	github.com/operator-framework/operator-sdk v0.8.2-0.20190522220659-031d71ef8154
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
-	github.com/spf13/pflag v1.0.3
+	github.com/spf13/pflag v1.0.5
 	go.uber.org/atomic v1.3.2 // indirect
 	go.uber.org/multierr v1.1.0 // indirect
 	k8s.io/api v0.0.0-20190413052509-3cc1b3fb6d0f
 	k8s.io/apimachinery v0.0.0-20190413052414-40a3f73b0fa2
 	k8s.io/client-go v2.0.0-alpha.0.0.20181126152608-d082d5923d3c+incompatible
 	k8s.io/code-generator v0.0.0-20181117043124-c2090bec4d9b
-	k8s.io/gengo v0.0.0-20190327210449-e17681d19d3a
+	k8s.io/gengo v0.0.0-20230306165830-ab3349d207d4
 	k8s.io/kube-openapi v0.0.0-20190228160746-b3a7cee44a30
 	sigs.k8s.io/controller-runtime v0.1.10
 	sigs.k8s.io/controller-tools v0.1.10
