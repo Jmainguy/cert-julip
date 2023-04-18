@@ -17,7 +17,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.27.1
 	k8s.io/apimachinery v0.28.0-alpha.0
-	k8s.io/client-go v2.0.0+incompatible
+	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/code-generator v0.27.1
 	k8s.io/gengo v0.0.0-20230306165830-ab3349d207d4
 	k8s.io/kube-openapi v0.0.0-20230327201221-f5883ff37f0c
@@ -30,7 +30,7 @@ replace (
 	k8s.io/api => k8s.io/api v0.27.1
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.27.1
 	k8s.io/apimachinery => k8s.io/apimachinery v0.27.1
-	k8s.io/client-go => k8s.io/client-go v0.27.1
+	k8s.io/client-go => k8s.io/client-go v11.0.0+incompatible
 )
 
 replace (
