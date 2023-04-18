@@ -12,7 +12,7 @@ require (
 	github.com/imdario/mergo v0.3.6 // indirect
 	github.com/jetstack/cert-manager v0.8.1
 	github.com/openshift/api v3.9.0+incompatible
-	github.com/operator-framework/operator-sdk v0.8.2-0.20190522220659-031d71ef8154
+	github.com/operator-framework/operator-sdk v1.28.0
 	github.com/peterbourgon/diskv v2.0.1+incompatible // indirect
 	github.com/spf13/pflag v1.0.5
 	k8s.io/api v0.27.1
@@ -35,7 +35,7 @@ replace (
 
 replace (
 	github.com/coreos/prometheus-operator => github.com/coreos/prometheus-operator v0.29.0
-	github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v0.8.1
+	github.com/operator-framework/operator-sdk => github.com/operator-framework/operator-sdk v1.28.0
 	k8s.io/code-generator => k8s.io/code-generator v0.27.1
 	k8s.io/kube-openapi => k8s.io/kube-openapi v0.0.0-20230327201221-f5883ff37f0c
 	sigs.k8s.io/controller-runtime => sigs.k8s.io/controller-runtime v0.1.10
