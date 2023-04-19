@@ -1,3 +1,6 @@
+# Archived
+I wrote this to fix a issue in openshift 3.x, where it could not take full advantage of cert-manager for routes. I no longer have any interactions with openshift, so I am archiving this repo.
+
 # cert-julip
 ## Purpose
 To provide a bridge between cert-manager and openshift
